@@ -10,7 +10,7 @@ const app = express();
 const ticketRoutes = require('./routes/billets');
 const gareRoutes = require('./routes/frequentation_gares');
 
-mongoose.connect("mongodb+srv://admin0:admin0@cluster0.xuooj.mongodb.net/apisncf?retryWrites=true&w=majority", {
+mongoose.connect("mongodb+srv://username:password@cluster.****.mongodb.net/apisncf?retryWrites=true&w=majority", {
     useNewUrlParser: true,
     useUnifiedTopology: true
 })
