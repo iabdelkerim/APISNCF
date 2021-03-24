@@ -1,7 +1,7 @@
 
 const MongoClient = require('mongodb').MongoClient;
 const mongoose = require('mongoose');
-const uri = "mongodb+srv://admin0:admin0@cluster0.xuooj.mongodb.net/apisncf?retryWrites=true&w=majority"
+const uri = "mongodb+srv://username:password@cluster.****.mongodb.net/apisncf?retryWrites=true&w=majority"
 var fs=require('fs');
 
 async function createDatabase(){
