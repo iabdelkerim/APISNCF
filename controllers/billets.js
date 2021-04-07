@@ -2,7 +2,7 @@
 const Billet = require('../models/billets');
 
 
-//exportations des méthodes GET,POST,DELETE,UPDATE 
+//exportations des méthodes GET,POST,DELETE,UPDATE pour les utiliser dans d'autres fichiers
 exports.createTicket = (req, res, next) => {
     delete req.body._id;
     const billet = new Billet({
